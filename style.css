@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #201c1c;
+  display: flex;
+  transition: all 0.3s;
+}
+.index {
+  margin-top: 10px;
+  margin-left: -130px;
+}
+.headi {
+  margin: 20px 40px 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.addr {
+}
+.degree {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+}
+.place {
+  width: 290px;
+  border-radius: 10px;
+  height: 25px;
+}
+button {
+  margin-right: px;
+  height: 30px;
+  width: 50px;
+  border-radius: 20%;
+  border-style: 5px solid #28bd17;
+  color: aliceblue;
+
+  background: rgba(255, 255, 255, 0.2); /* Transparent white background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Shadow for the glass effect */
+}
+
+.container {
+  border: solid #635555;
+  width: 400px;
+  height: 750px;
+  margin-left: 200px;
+  overflow: hidden;
+  box-shadow: inset 0 -3em 3em rgba(4, 5, 4, 0.3),
+    /* Top shadow */ inset 0 3em 3em rgba(4, 5, 4, 0.3),
+    /* Bottom shadow */ inset -3em 0 3em rgba(4, 5, 4, 0.3),
+    /* Left shadow */ inset 3em 0 3em rgba(4, 5, 4, 0.3),
+    /* Right shadow */ 0 0 0 2px white,
+    /* Outline */ 0.3em 0.3em 1em rgba(0, 0, 0, 0.6); /* Outer shadow */
+
+  /* background-color: beige; */
+
+  border-radius: 4%;
+  /* background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  ); */
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(253, 29, 29, 0.5626780626780628) 100%,
+    rgba(252, 176, 69, 1) 100%
+  );
+}
+
+.pin {
+  height: 30px;
+}
+
+.wimg {
+  width: 300px;
+  height: auto;
+}
+.weat-img {
+  display: flex;
+  justify-content: center;
+  margin-bottom: auto;
+}
+
+.temp {
+  font-size: 85px;
+  font-weight: bold;
+}
+
+.temp p {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.details {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  /* gap: 50px; */
+  font-size: 25px;
+  font-weight: 800;
+  justify-content: center;
+  margin-top: auto;
+  /* border: solid 4px #ffffff7a;
+  border-radius: 5px; */
+  background: rgba(255, 255, 255, 0.2); /* Transparent white background */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow for the glass effect */
+}
+.hd {
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr;
+  justify-content: center;
+  gap: 30px;
+}
+.descri {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 75px;
+  margin-left: 20px;
+}
+
+.wind-sp,
+.feels,
+.humi {
+  margin-left: 90px;
+}
+
+/* .wid {
+  margin-left: -18px;
+} */
+
+.section-map {
+  height: 750px;
+  width: 900px;
+  background-color: #857685;
+  box-shadow: inset 0 -3em 3em rgb(0 200 0 / 30%), 0 0 0 2px white,
+    0.3em 0.3em 1em rgba(0, 0, 0, 0.6);
+
+  margin: auto 100px auto auto;
+}
+.section-widget {
+  margin: auto auto auto 300px;
+}
+
+.app {
+}
+
+.index {
+  margin-right: -160px;
+}
